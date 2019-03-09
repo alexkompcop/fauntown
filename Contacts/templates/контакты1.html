@@ -1,0 +1,8 @@
+{% extends "контакт.html" %} 
+
+{% block content %}
+	{% for post in object_list %}
+	  {{post.ghg}}
+	{% endfor %}
+	
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends "контакт.html" %} 
+
+{% block content4 %}
+	{% for post in object_list %}
+	  <a href="news/{{post.id}}" class="bl"><b>{{post.title}}</b></a>
+	  <br/>
+	{% endfor %}
+	
+{% endblock %}
